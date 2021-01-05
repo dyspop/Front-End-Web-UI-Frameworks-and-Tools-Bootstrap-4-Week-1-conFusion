@@ -3,6 +3,18 @@
     padding: 0px auto;
 }
 
+h3 {
+    margin-top: 1em;
+}
+
+small {
+    display: block;
+    margin-left:.25em;
+    font-style: italic;
+    font-size:60%;
+    color:gray;
+}
+
 .row-content {
     margin: 0px auto;
     padding: 50px 0px 50px 0px;
@@ -10,21 +22,39 @@
     min-height: 400px;
 }
 
+.row-content h2 {
+    margin-bottom: 1em;
+}
+
 .footer {
-    background-color: papayawhip;
+    background: rgb(189,226,209);
+    background: -moz-linear-gradient(0deg, rgba(189,226,209,1) 0%, rgba(249,214,141,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(189,226,209,1) 0%, rgba(249,214,141,1) 100%);
+    background: linear-gradient(0deg, rgba(189,226,209,1) 0%, rgba(249,214,141,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bde2d1",endColorstr="#f9d68d",GradientType=1);
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
 
 .jumbotron {
     padding: 70px 30px 70px 30px;
-    margin: 0 auto;
-    background-color: indigo;
-    color: floralwhite;
+    margin: 10px auto;
+    /* background-color: indigo; */
+    background: rgb(195,0,252);
+    background: -moz-linear-gradient(132deg, rgba(195,0,252,1) 0%, rgba(106,0,255,1) 100%);
+    background: -webkit-linear-gradient(132deg, rgba(195,0,252,1) 0%, rgba(106,0,255,1) 100%);
+    background: linear-gradient(132deg, rgba(195,0,252,1) 0%, rgba(106,0,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c300fc",endColorstr="#6a00ff",GradientType=1);
+    border-radius: 0;
+    color: rgb(230,215,250)
 }
 
 address {
     font-size: 80%;
     margin: 0px;
     color: darkslategrey;
+}
+
+.social {
+    margin:2em auto;
 }
