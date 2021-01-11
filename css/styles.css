@@ -58,3 +58,18 @@ address {
 .social {
     margin:2em auto;
 }
+
+body {
+    padding-top: 47px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#750245+0,de47ac+100 */
+    background: #750245; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #750245 0%, #de47ac 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #750245 0%,#de47ac 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #750245 0%,#de47ac 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#750245', endColorstr='#de47ac',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
